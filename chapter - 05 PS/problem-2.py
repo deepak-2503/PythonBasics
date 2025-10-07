@@ -1,0 +1,21 @@
+'''Write a program to input eight numbers from the user and display all the unique
+numbers (once).'''
+a = float(input("Enter a number : "))
+b = float(input("Enter one more number : "))
+c = float(input("Enter one more number : "))
+d = float(input("Enter one more number : "))
+e = float(input("Enter one more number : "))
+f = float(input("Enter one more number : "))
+g = float(input("Enter one more number : "))
+h = float(input("Enter one more number : "))
+
+uniqueset = set()
+uniqueset.add(a)
+uniqueset.add(b)
+uniqueset.add(c)
+uniqueset.add(d)
+uniqueset.add(e)
+uniqueset.add(f)
+uniqueset.add(g)
+uniqueset.add(h)
+print(uniqueset, type(uniqueset))
